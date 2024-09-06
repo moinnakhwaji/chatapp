@@ -1,0 +1,38 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Compiled binary addons
+build/Release/
+
+# Dependency directories
+jspm_packages/
+frontend/public/
+
+
+# Dependency and lock files
+backend/package-lock.json
+backend/package.json
+frontend/package-lock.json
+frontend/package.json
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore Gitignore itself
+!.gitignore
